@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <title>My Education</title>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding-right: 3%;
+        padding-left: 3%;
+        border-radius: 5%;
+      }
+      .links {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+      }
+      .links a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+      .links a:hover {
+        color: red;
+      }
+      .logo {
+        font-size: 24px;
+        color: black;
+        padding-top: 10px;
+      }
+      body {
+        background-image: url(background.jpg);
+        background-size: cover;
+      }
+      .education {
+        color: white;
+      }
+      table {
+        color: white;
+      }
+      .highschool {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        gap: 5%;
+        padding-top: 5%;
+      }
+      
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="navbar">
+      <div class="logo">MY PORTFOLIO</div>
+      <nav>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="interest.html">Interests</a></li>
+          <button>Resume</button>
+        </ul>
+      </nav>
+    </header>
+    <!-- tabel begins -->
+    <div class="education">
+      <div>
+        <h1 style="text-align: center"><u>Educational Background</u></h1>
+        <table border="1">
+          <tr>
+            <th>Level</th>
+            <th>Institution</th>
+            <th>Qualification</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Highschool</td>
+            <td>maryhill girls</td>
+            <td>kcse</td>
+            <td>2015-2019</td>
+          </tr>
+          <tr>
+            <td>University</td>
+            <td>Pioneer International University</td>
+            <td>Degree</td>
+            <td>2019-2023</td>
+          </tr>
+        </table>
+      </div>
+      <!-- education background -->
+      <div class="highschool" style="font-family: 'Times New Roman', Times, serif;">
+        <p>
+          <span style="font-size: large"><u>HIGH SCHOOL BACKGROUND</u></span
+          ><br /><br />
+          <span>
+            I attended <b>Maryhill Girls High School</b>, where I developed a
+            strong academic foundation and leadership skills. My high school
+            experience was formative and helped me grow both academically and
+            personally. I was involved in various extracurricular activities,
+            such as debate club and student council, which helped me develop my
+            communication and leadership skills.
+        </span>
+          
+        </p>
+   
+          <img src="images/maryhill.png" alt="maryhill girls highschool logo" width="`300px" height="150px"/>    
+       
+      </div>
+      <div class="highschool">
+
+        <p>
+          <span style="font-size: large;"><u>UNIVERSITY BACKGROUND</u></span><br><br>
+          I graduated from <b>Pioneer International University</b> with a
+          <i>second class upper honours</i> degree in International Relations
+          and Diplomacy. I gained valuable knowledge in international politics,
+          economics, and diplomacy, which has shaped my understanding of global
+          issues and relations. My university experience was enriching, and I
+          had the opportunity to engage in various academic and extracurricular
+          activities.
+        </p>
+        <section>
+            <img src="pioneer logo.png" alt="logo" width="180px" height="150px"
+            height="180px">
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

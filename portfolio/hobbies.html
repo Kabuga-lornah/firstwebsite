@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Hobbies</title>
+    <style>
+           .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding-right: 3%;
+        padding-left: 3%;
+        border-radius: 5%;
+      }
+      .links {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+      }
+      .links a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+      .links a:hover {
+        color: red;
+      }
+      .logo {
+        font-size: 24px;
+        color: black;
+        padding-top: 10px;
+      }
+      body {
+        background-image: url(background.jpg);
+        background-size: cover;
+      }
+
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Background</title>
+        <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+ <!-- navbar -->
+ <header class="navbar">
+    <div class="logo">MY PORTFOLIO</div>
+    <nav>
+      <ul class="links">
+          <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="interest.html">Interests</a></li>
+        <button>Resume</button>
+      </ul>
+    </nav>
+  </header>
+    <div style="color: white;">
+    <h1>My Hobbies</h1>
+    <ol>
+        <li><b><u>Baking</u></b></li>
+    <p>I love <b>baking</b>. Experimenting with new recipes and decorating cakes is something I enjoy. It is a creative
+        and relaxing activity for me.</p>
+        <video width="320" height="240" controls>
+            <source src="video/cake video.mp4" type="video/mp4">
+            <source src="video/cake video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video><br>
+        <li><b><u>Guitar</u></b></li>
+    <p>Another hobby of mine is <b>playing the guitar</b>. I love learning new songs and experimenting with different
+        chords and melodies.</p>
+        
+        <audio controls>
+            <source src="audio/guitar.mp3" type="audio/ogg">
+            <source src="audio/guitar.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br>
+        <img src="images/guitar.jpeg" alt="Playing Guitar" width="150"><br>
+       
+        <li><b><u>Coding</u></b></li>
+    <p>I also have a passion for <b>coding</b>. I enjoy learning new programming languages and building small projects
+        to improve my skills.</p>
+        <img src="images/coding.jpeg" alt="Coding on a Laptop" width="150"><br>
+    </ol>
+</div>
+</body>
+
+</html>
